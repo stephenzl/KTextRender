@@ -159,9 +159,9 @@
             NSNumber *num = [attributes valueForKey:@"Slot"];
             if (num != nil) {
                 
-                if (self.delegate && [self.delegate respondsToSelector:@selector(slotClickAtIndex:)])
+                if (self.delegate && [self.delegate respondsToSelector:@selector(anchorClickAtIndex:)])
                 {
-                    [self.delegate slotClickAtIndex:[num intValue]];
+                    [self.delegate anchorClickAtIndex:[num intValue]];
                 }
                 
                 break;

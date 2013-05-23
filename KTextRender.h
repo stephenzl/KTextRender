@@ -10,7 +10,7 @@
 
 @protocol KTextRenderDelegate <NSObject>
 
-- (void)slotClickAtIndex:(int)index;
+- (void)anchorClickAtIndex:(int)index;
 
 @end
 
