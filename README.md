@@ -3,7 +3,7 @@ KTextRender
 
 handle anchor click in text, using core text
 
-Using:
+Usage:
 - (IBAction)onTextRender:(id)sender
 {
     UIFont *font = [UIFont systemFontOfSize:10.f];
